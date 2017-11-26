@@ -169,6 +169,7 @@ void ATestingGroundsCharacter::OnFire()
 	if (FireSound != NULL)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		this->MakeNoise(1.0F, this, this->GetActorLocation(), 750.0F, "Gunfire");
 	}
 
 	// try and play a firing animation if specified
