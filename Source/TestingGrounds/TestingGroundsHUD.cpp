@@ -18,7 +18,7 @@ ATestingGroundsHUD::ATestingGroundsHUD()
 void ATestingGroundsHUD::DrawHUD()
 {
 	Super::DrawHUD();
-
+	UE_LOG(LogTemp, Warning, TEXT("Drawing HUD"));
 	// Draw very simple crosshair
 
 	// find center of the Canvas
