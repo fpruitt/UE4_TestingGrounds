@@ -7,7 +7,7 @@
 
 EBTNodeResult::Type UChooseNextWaypoint::ExecuteTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Executing"));
+	//UE_LOG(LogTemp, Warning, TEXT("Executing"));
 	auto BlackboardComponent = OwnerComp.GetBlackboardComponent();
 
 	// Get the AI Pawn
